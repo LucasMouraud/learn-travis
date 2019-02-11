@@ -1,16 +1,12 @@
 {
-  "name": "learn-travis",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nelsonic/learn-travis.git"
-  },
-  "description": "Simple nodejs, travis and grunt demo",
-  "author": "https://twitter.com/nelsonic",
-  "version": "1.0.0",
+  "name": "learn-travis-MOURAUD",
+  "description": "Simple Travis-CI check for JSHint (Code Linting)",
+  "author": "MOURAUD-Lucas",
+  "version": "0.0.1",
   "devDependencies": {
-    "jshint": "^2.8.0"
+    "jshint": "^2.10.1"
   },
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint hello.js"
+    "test": "jshint hello.js"
   }
 }
